@@ -1,0 +1,6 @@
+vpc_name            = "Devopsb29VPC-prod"
+vpc_cidr            = "10.28.0.0/16"
+public_subnet1_cidr = "10.28.1.0/24"
+public_subnet2_cidr = "10.28.2.0/24"
+public_subnet3_cidr = "10.28.3.0/24"
+env = "prod"

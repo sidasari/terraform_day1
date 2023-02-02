@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "sireesharemotestate"
-    key    = "aws-terraform.tfstate"
+    key    = "workspaces.tfstate"
     region = "us-east-1"
   }
 }
